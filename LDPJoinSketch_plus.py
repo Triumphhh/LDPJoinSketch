@@ -329,16 +329,16 @@ Est_Fd1 = []  # 用于保存频繁项并集在两个采样数据中的频数
 Est_Fd2 = []
 for item in FI:
     Est_Fd1.append(acc_freq1[item])  # 尝试准确记录高频项频数
-    for t1 in range(len(uniq_S1)):
-        if uniq_S1[t1] == item:
-            Est_Fd1.append(Est_F1[t1])
-            break
+    #for t1 in range(len(uniq_S1)):
+        #if uniq_S1[t1] == item:
+            #Est_Fd1.append(Est_F1[t1])
+            #break
 for item in FI:
     Est_Fd2.append(acc_freq2[item])
-    for t2 in range(len(uniq_S2)):
-        if uniq_S2[t2] == item:
-            Est_Fd2.append(Est_F2[t2])
-            break
+    #for t2 in range(len(uniq_S2)):
+        #if uniq_S2[t2] == item:
+            #Est_Fd2.append(Est_F2[t2])
+            #break
 print(f"Est_Fd1:{Est_Fd1}")
 print(f"Est_Fd2:{Est_Fd2}")
 
