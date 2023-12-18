@@ -192,7 +192,7 @@ def main():
     method = args.method
 
     # the file path needs to be modified according to your own environment.
-    filename = '../LDPJoinSketch/SourceCode/data/'+args.dataset+'/'+args.dataset+'.csv'
+    filename = '/data/'+args.dataset+'/'+args.dataset+'.csv'
     data = data_gen(filename)
 
     st_time = time.time()
