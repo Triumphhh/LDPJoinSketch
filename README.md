@@ -5,7 +5,7 @@
 > Meifan Zhang, Xin Liu, Lihua Yin.
 > *Sketches-Based Join Size Estimation Under Local Differential Privacy.*
 > IEEE ICDE 2024, pp. 1726–1738.
-> [[arXiv]](https://arxiv.org/abs/2405.11419) · [[IEEE Xplore]](https://ieeexplore.ieee.org/document/10598055)
+> [[IEEE Xplore]](https://ieeexplore.ieee.org/document/10598055)
 
 ---
 
